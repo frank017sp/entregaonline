@@ -1,0 +1,84 @@
+HTML TARGET CONTENT:
+            <div class="vsl-glass-container box-shadow-premium mx-auto">
+                <div class="video-player">
+                    <!-- ID mock-play-btn usado para simular o clique e disparar o delay do restante da página -->
+                    <div class="play-button pulse-glow-blue" id="mock-play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 3l14 9-14 9V3z"></path></svg></div>
+                </div>
+            </div>
+================
+        <!-- MÓDULOS APPLE STYLE -->
+        <section class="learn-section bg-ice-white section-padding">
+            <div class="container">
+                <h2 class="text-center reveal fade-up mb-5">O que você vai aprender</h2>
+                
+                <div class="modules-container">
+                    <!-- Mod 1 -->
+                    <div class="apple-card mod-orange reveal fade-up hover-3d">
+                        <div class="apple-card-content">
+                            <div class="mod-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></div>
+                            <h3 class="mod-title">Rotas Inteligentes</h3>
+                            <p class="mod-desc">O segredo para entregar mais pacotes em menos tempo, economizando combustível e maximizando seu lucro diário.</p>
+                            <ul class="mod-check">
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Como diminuir o tempo de rota</li>
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Separação correta de pacotes</li>
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Waze & Google Maps Pro</li>
+                            </ul>
+                        </div>
+                        <div class="apple-card-mockup">
+                            <div class="mockup-img">MOCKUP 1</div>
+                        </div>
+                    </div>
+
+                    <!-- Mod 2 -->
+                    <div class="apple-card mod-blue reveal fade-up hover-3d">
+                        <div class="apple-card-content">
+                            <div class="mod-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg></div>
+                            <h3 class="mod-title">Cadastros</h3>
+                            <p class="mod-desc">Aprovação rápida e sem burocracia. Saiba exatamente quais documentos enviar e como funciona a questão do MEI.</p>
+                            <ul class="mod-check">
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Trabalhar em várias transportadoras</li>
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Aprovação rápida nos apps</li>
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Guia prático do MEI</li>
+                            </ul>
+                        </div>
+                        <div class="apple-card-mockup">
+                            <div class="mockup-img">MOCKUP 2</div>
+                        </div>
+                    </div>
+
+                    <!-- Mod 3 -->
+                    <div class="apple-card mod-yellow reveal fade-up hover-3d">
+                        <div class="apple-card-content">
+                            <div class="mod-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg></div>
+                            <h3 class="mod-title">Veículos</h3>
+                            <p class="mod-desc">Não quebre no primeiro mês. Aprenda a escolher o veículo mais econômico e a calcular o custo-benefício real.</p>
+                            <ul class="mod-check">
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Modelos ideais por app</li>
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Aluguel vs Compra</li>
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Prevenção de manutenção</li>
+                            </ul>
+                        </div>
+                        <div class="apple-card-mockup">
+                            <div class="mockup-img">MOCKUP 3</div>
+                        </div>
+                    </div>
+
+                    <!-- Mod 4 (Novo) -->
+                    <div class="apple-card mod-green reveal fade-up hover-3d">
+                        <div class="apple-card-content">
+                            <div class="mod-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg></div>
+                            <h3 class="mod-title">Faturamento</h3>
+                            <p class="mod-desc">Estratégias avançadas de quem vive do mercado para multiplicar seus ganhos sem precisar trabalhar o dobro.</p>
+                            <ul class="mod-check">
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Como faturar o máximo possível</li>
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Triplicar ganhos com multiapps</li>
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Gestão do lucro líquido</li>
+                            </ul>
+                        </div>
+                        <div class="apple-card-mockup">
+                            <div class="mockup-img">MOCKUP 4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+================

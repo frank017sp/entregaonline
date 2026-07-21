@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Treinamento Entregas Lucrativas | Fature até R$15.000 por Mês</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&family=Sora:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HERO & VSL SECTION (SEMPRE VISÍVEL) -->
+    <section class="hero cinematic-bg vsl-hero" style="padding-top: 10px;">
+        <!-- Cinematic Background Elements -->
+        <div class="hero-gradient-overlay"></div>
+        <div class="hero-map parallax-layer" data-speed="0.05"></div>
+        <div class="hero-routes">
+            <svg class="animated-route" viewBox="0 0 1000 500" preserveAspectRatio="none">
+                <path d="M0,250 C300,100 700,400 1000,200" fill="none" stroke="rgba(255, 209, 0, 0.4)" stroke-width="2" />
+                <path d="M-100,400 C200,300 600,500 1100,100" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
+            </svg>
+        </div>
+        <div class="hero-particles" id="hero-particles"></div>
+        
+        <!-- Floating Boxes Removed per user request -->
+
+        <div class="container relative z-10 text-center">
+            
+            <div class="watermark-logos parallax-layer" data-speed="0.02">
+                <span>Amazon</span>
+                <span>Mercado Livre</span>
+                <span>Shopee</span>
+            </div>
+
+            <div class="vsl-heading-block">
+                <h1>Descubra Como Entrar no Mercado de Entregas das Maiores Empresas do Brasil e Como É Possível Faturar Até <span class="glow-text">R$15.000 por Mês</span></h1>
+                <p class="subtitle">Assista ao vídeo abaixo antes que saia do ar.</p>
+            </div>
+
+            <div class="vsl-glass-container box-shadow-premium mx-auto">
+                <div class="video-player">
+                    <video id="vsl-video" controls autoplay muted playsinline src="video_casal.mp4" style="width:100%; height:100%; object-fit:cover; border-radius:16px; display:block; position:relative; z-index:30;"></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ======================================================= -->
+    <!-- CONTEÚDO DA PÁGINA (SEMPRE VISÍVEL) -->
+    <!-- ======================================================= -->
+    <div id="delayed-content">
+        
+        <!-- AUTORIDADE -->
+        <section class="authority-section seamless-black-blue section-padding" style="position: relative; padding-top: 80px; padding-bottom: 40px;">
+            <div class="container relative z-10">
+
+                <!-- FOTO E CHECKLIST (Antiga Hero Left/Right) -->
+                <div class="hero-container reveal fade-up" style="align-items: center;">
+                    <div class="hero-text-block" style="flex: 1;">
+                        <p style="font-size: 1.15rem; color: #ffffff; font-weight: 500; line-height: 1.6; margin-bottom: 25px; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Vou mostrar exatamente como funciona o mercado de entregas para Amazon, Mercado Livre, Shopee e outras empresas parceiras. Você aprenderá desde o processo de cadastro até a escolha do veículo ideal para começar sem desperdiçar dinheiro com decisões erradas.</p>
+                        
+                        <ul class="hero-checklist">
+                            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Método explicado por quem trabalha diariamente no mercado.</li>
+                            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Trabalhe sozinho ou em casal, organizando a operação de forma mais eficiente.</li>
+                            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Escolha o veículo ideal para cada tipo de entrega antes de investir.</li>
+                            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Aprenda a interpretar corretamente os mapas e as rotas, evitando desvios, retornos desnecessários e perda de tempo.</li>
+                            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Domine a leitura dos mapas das próprias plataformas e também de aplicativos como Google Maps e Waze, entendendo quando seguir a rota sugerida e quando utilizar sua própria estratégia para ganhar eficiência.</li>
+                            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Descubra como organizar dezenas de entregas na sequência correta para economizar combustível, reduzir o tempo de rota e aumentar sua produtividade.</li>
+                            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Aprenda antes de investir e evite os erros mais comuns que fazem muitos iniciantes desistirem nos primeiros meses.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="hero-visual-block" style="flex: 1;">
+                        <div class="photo-wrapper parallax-layer" data-speed="-0.02">
+                            <div class="epic-glow"></div>
+                            <img src="casal.jpg" alt="Casal de entregadores Shopee" style="position: absolute; inset: 0; z-index: 2; width: 100%; height: 100%; object-fit: cover; border-radius: 24px;">
+                            
+                            <div class="authority-glass box-shadow-premium">
+                                <h3>Quem vai te ensinar?</h3>
+                                <p>Somos um casal que atua no mercado de entregas e criamos um método prático para ajudar iniciantes a entender a rotina de quem deseja trabalhar com grandes plataformas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TRUST BAR 2.0 (Movida para abaixo da foto) -->
+                <div class="premium-trust-bar reveal fade-up" style="margin-top: 60px;">
+                    <div class="trust-bar-glass box-shadow-premium">
+                        <p class="trust-phrase">Aprenda um método para atuar com grandes marketplaces e empresas de logística</p>
+                        <div class="trust-logos-row">
+                            <span>Amazon</span>
+                            <span class="dot">•</span>
+                            <span>Mercado Livre</span>
+                            <span class="dot">•</span>
+                            <span>Shopee</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- GANHOS SECTION -->
+        <section class="earnings-section bg-yellow-white section-padding">
+            <div class="earnings-graphics">
+                <svg class="bg-lines" width="100%" height="100%"><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,77,0,0.05)" stroke-width="1"/></pattern><rect width="100%" height="100%" fill="url(#grid)"/></svg>
+            </div>
+            
+            <div class="container relative z-10">
+                
+                <div class="dashboard-wrapper reveal fade-up">
+                    <div class="dash-highlight text-center">
+                        <p class="dash-subtitle">Faturamento Bruto Comprovado — Maio e Junho 2026</p>
+                        <h2 class="massive-number"><span class="count-up" data-target="15834">R$ 0</span></h2>
+                    </div>
+
+                    <div class="dashboard-content w-full">
+
+                        <!-- CARDS INDIVIDUAIS -->
+                        <div class="dashboard-grid">
+                            <div class="dash-card card-3d">
+                                <h3>📦 Tales</h3>
+                                <div class="dash-flow">
+                                    <span style="color: #2e7d32; font-family: var(--font-heading); font-size: 2rem; font-weight: 800;">R$ 8.982,94</span>
+                                    <small>Faturamento Maio + Junho</small>
+                                    <small style="opacity: 0.6;">Média semanal: ~R$ 1.123</small>
+                                </div>
+                            </div>
+
+                            <div class="dash-card premium-card card-3d">
+                                <h3>📦 Gabi</h3>
+                                <div class="dash-flow">
+                                    <span style="color: var(--yellow); font-family: var(--font-heading); font-size: 2rem; font-weight: 800;">R$ 6.851,97</span>
+                                    <small>Faturamento Maio + Junho</small>
+                                    <small style="opacity: 0.6;">Média semanal: ~R$ 856</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- LUCRO LÍQUIDO -->
+                        <div class="dash-card card-3d mt-4 mx-auto" style="max-width: 400px; background: linear-gradient(135deg, #e8f5e9, #c8e6c9); border: 1px solid #a5d6a7;">
+                            <h3 style="color: #2e7d32;">💰 Lucro Líquido</h3>
+                            <div class="dash-flow">
+                                <span style="color: #1b5e20; font-family: var(--font-heading); font-size: 2rem; font-weight: 800;">R$ 13.459</span>
+                                <small style="color: #2e7d32;">Bruto R$ 15.834 − 15% de custos</small>
+                                <small style="color: #2e7d32; opacity: 0.7;">Cada um: ~R$ 6.729 em 2 meses</small>
+                            </div>
+                        </div>
+
+                        <!-- COMPROVANTES -->
+                        <h3 class="text-center" style="color: var(--dark-blue); font-size: 1.2rem; margin-top: 30px; margin-bottom: 10px;">Comprovantes Reais de Pagamento</h3>
+                        <div class="proofs-carousel">
+
+                            <!-- MAIO: Semana 11/05 - 17/05 -->
+                            <div class="proof-card hover-3d">
+                                <div class="css-print-mockup">
+                                    <div class="css-print-header"><span>Período Pago</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></div>
+                                    <div class="css-print-body">
+                                        <div class="css-print-row"><span>Mês</span><span>Maio</span></div>
+                                        <div class="css-print-row"><span>Período</span><span>11/05 - 17/05/2026</span></div>
+                                        <div class="css-print-row"><span>Valor Recebido</span><span class="print-val-highlight">R$ 552,95</span></div>
+                                        <div class="css-print-row"><span>Pagamento</span><span>21/05/2026</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MAIO: Semana 18/05 - 24/05 (A) -->
+                            <div class="proof-card hover-3d">
+                                <div class="css-print-mockup">
+                                    <div class="css-print-header"><span>Período Pago</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></div>
+                                    <div class="css-print-body">
+                                        <div class="css-print-row"><span>Mês</span><span>Maio</span></div>
+                                        <div class="css-print-row"><span>Período</span><span>18/05 - 24/05/2026</span></div>
+                                        <div class="css-print-row"><span>Valor Recebido</span><span class="print-val-highlight">R$ 2.125,41</span></div>
+                                        <div class="css-print-row"><span>Pagamento</span><span>28/05/2026</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MAIO: Semana 18/05 - 24/05 (B) -->
+                            <div class="proof-card hover-3d">
+                                <div class="css-print-mockup">
+                                    <div class="css-print-header"><span>Período Pago</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></div>
+                                    <div class="css-print-body">
+                                        <div class="css-print-row"><span>Mês</span><span>Maio</span></div>
+                                        <div class="css-print-row"><span>Período</span><span>18/05 - 24/05/2026</span></div>
+                                        <div class="css-print-row"><span>Valor Recebido</span><span class="print-val-highlight">R$ 1.380,68</span></div>
+                                        <div class="css-print-row"><span>Pagamento</span><span>28/05/2026</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MAIO: Semana 25/05 - 31/05 (A) -->
+                            <div class="proof-card hover-3d">
+                                <div class="css-print-mockup">
+                                    <div class="css-print-header"><span>Período Pago</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></div>
+                                    <div class="css-print-body">
+                                        <div class="css-print-row"><span>Mês</span><span>Maio</span></div>
+                                        <div class="css-print-row"><span>Período</span><span>25/05 - 31/05/2026</span></div>
+                                        <div class="css-print-row"><span>Valor Recebido</span><span class="print-val-highlight">R$ 995,84</span></div>
+                                        <div class="css-print-row"><span>Pagamento</span><span>05/06/2026</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MAIO: Semana 25/05 - 31/05 (B) -->
+                            <div class="proof-card hover-3d">
+                                <div class="css-print-mockup">
+                                    <div class="css-print-header"><span>Período Pago</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></div>
+                                    <div class="css-print-body">
+                                        <div class="css-print-row"><span>Mês</span><span>Maio</span></div>
+                                        <div class="css-print-row"><span>Período</span><span>25/05 - 31/05/2026</span></div>
+                                        <div class="css-print-row"><span>Valor Recebido</span><span class="print-val-highlight">R$ 765,69</span></div>
+                                        <div class="css-print-row"><span>Pagamento</span><span>05/06/2026</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- JUNHO: Semana 01/06 - 07/06 (A) -->
+                            <div class="proof-card hover-3d">
+                                <div class="css-print-mockup">
+                                    <div class="css-print-header"><span>Período Pago</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></div>
+                                    <div class="css-print-body">
+                                        <div class="css-print-row"><span>Mês</span><span>Junho</span></div>
+                                        <div class="css-print-row"><span>Período</span><span>01/06 - 07/06/2026</span></div>
+                                        <div class="css-print-row"><span>Valor Recebido</span><span class="print-val-highlight">R$ 1.354,28</span></div>
+                                        <div class="css-print-row"><span>Pagamento</span><span>11/06/2026</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- JUNHO: Semana 01/06 - 07/06 (B) -->
+                            <div class="proof-card hover-3d">
+                                <div class="css-print-mockup">
+                                    <div class="css-print-header"><span>Período Pago</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></div>
+                                    <div class="css-print-body">
+                                        <div class="css-print-row"><span>Mês</span><span>Junho</span></div>
+                                        <div class="css-print-row"><span>Período</span><span>01/06 - 07/06/2026</span></div>
+                                        <div class="css-print-row"><span>Valor Recebido</span><span class="print-val-highlight">R$ 681,84</span></div>
+                                        <div class="css-print-row"><span>Pagamento</span><span>11/06/2026</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- JUNHO: Semana 08/06 - 14/06 -->
+                            <div class="proof-card hover-3d">
+                                <div class="css-print-mockup">
+                                    <div class="css-print-header"><span>Período Pago</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></div>
+                                    <div class="css-print-body">
+                                        <div class="css-print-row"><span>Mês</span><span>Junho</span></div>
+                                        <div class="css-print-row"><span>Período</span><span>08/06 - 14/06/2026</span></div>
+                                        <div class="css-print-row"><span>Valor Recebido</span><span class="print-val-highlight">R$ 1.188,64</span></div>
+                                        <div class="css-print-row"><span>Pagamento</span><span>18/06/2026</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- JUNHO: Semana 15/06 - 21/06 -->
+                            <div class="proof-card hover-3d">
+                                <div class="css-print-mockup">
+                                    <div class="css-print-header"><span>Período Pago</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></div>
+                                    <div class="css-print-body">
+                                        <div class="css-print-row"><span>Mês</span><span>Junho</span></div>
+                                        <div class="css-print-row"><span>Período</span><span>15/06 - 21/06/2026</span></div>
+                                        <div class="css-print-row"><span>Valor Recebido</span><span class="print-val-highlight">R$ 947,48</span></div>
+                                        <div class="css-print-row"><span>Pagamento</span><span>25/06/2026</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- JUNHO: Semana 22/06 - 28/06 -->
+                            <div class="proof-card hover-3d">
+                                <div class="css-print-mockup">
+                                    <div class="css-print-header"><span>Período Pago</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></div>
+                                    <div class="css-print-body">
+                                        <div class="css-print-row"><span>Mês</span><span>Junho</span></div>
+                                        <div class="css-print-row"><span>Período</span><span>22/06 - 28/06/2026</span></div>
+                                        <div class="css-print-row"><span>Valor Recebido</span><span class="print-val-highlight">R$ 1.046,09</span></div>
+                                        <div class="css-print-row"><span>Pagamento</span><span>02/07/2026</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- JUNHO: Semana 29/06 - 05/07 -->
+                            <div class="proof-card hover-3d">
+                                <div class="css-print-mockup">
+                                    <div class="css-print-header"><span>Período Pago</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></div>
+                                    <div class="css-print-body">
+                                        <div class="css-print-row"><span>Mês</span><span>Junho</span></div>
+                                        <div class="css-print-row"><span>Período</span><span>29/06 - 05/07/2026</span></div>
+                                        <div class="css-print-row"><span>Valor Recebido</span><span class="print-val-highlight">R$ 912,00</span></div>
+                                        <div class="css-print-row"><span>Pagamento</span><span>10/07/2026</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <p class="legal-disclaimer text-center mt-4">"Os valores apresentados são reais e comprovados. Resultados podem variar conforme região, demanda e desempenho individual."</p>
+            </div>
+            <!-- Transition Divider to Problem -->
+        </section>
+
+        <!-- SEÇÃO PROBLEMA -->
+        <section class="problem-section bg-amazon-black section-padding">
+            <div class="problem-texture"></div>
+            <div class="container relative z-10">
+                <h2 class="text-center text-white reveal fade-up">Por que a maioria nunca consegue entrar nesse mercado?</h2>
+                
+                <div class="problem-grid reveal fade-up">
+                    <div class="problem-glass-card hover-glow">
+                        <div class="icon-error"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></div>
+                        <p>Não sabe interpretar o mapa dos apps ou de terceiros</p>
+                    </div>
+                    <div class="problem-glass-card hover-glow">
+                        <div class="icon-error"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></div>
+                        <p>Não organiza corretamente as rotas</p>
+                    </div>
+                    <div class="problem-glass-card hover-glow">
+                        <div class="icon-error"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></div>
+                        <p>Escolhe o veículo errado, afetando o lucro final</p>
+                    </div>
+                    <div class="problem-glass-card hover-glow">
+                        <div class="icon-error"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></div>
+                        <p>Não sabe como iniciar da forma correta</p>
+                    </div>
+                    <div class="problem-glass-card hover-glow">
+                        <div class="icon-error"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></div>
+                        <p>Desiste antes da aprovação</p>
+                    </div>
+                </div>
+
+                <div class="solution-banner reveal fade-up">
+                    <h3>É exatamente isso que este treinamento resolve.</h3>
+                </div>
+            </div>
+            <!-- Transition Divider to Modules -->
+            <div class="wave-divider blue-to-ice">
+                <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C59.71,118,130.42,121.22,200.41,110.8,241.6,104.66,282.88,88.94,321.39,56.44Z" fill="var(--ice-white)"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- BENEFÍCIOS (NOVO LAYOUT) -->
+        <style>
+          .benefits-section {
+            --bg: #f4f5f7;
+            --card-bg: #ffffff;
+            --text-dark: #0b0d12;
+            --text-gray: #6b7280;
+            --tag-bg: #f1f2f5;
+            --border: #ececef;
+            --ben-orange: #ff6a2b;
+            --ben-blue: #2f6bff;
+            --ben-green: #17b06b;
+            --dark-card: #0b0f0d;
+            --dark-border: #1f3327;
+            --neon-green: #22e07a;
+            
+            background: var(--bg);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 64px 24px 80px;
+            margin: 0;
+          }
+        
+          .benefits-section * { box-sizing: border-box; }
+        
+          .benefits-section .benefits-content {
+            max-width: 640px;
+            margin: 0 auto;
+          }
+        
+          .benefits-section .eyebrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: #eceef2;
+            color: #1f2430;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            padding: 8px 16px;
+            border-radius: 999px;
+            width: fit-content;
+            margin: 0 auto 24px;
+          }
+          .benefits-section .eyebrow svg { width: 16px; height: 16px; }
+        
+          .benefits-section h2.benefits-title {
+            text-align: center;
+            font-size: 34px;
+            line-height: 1.15;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin: 0 0 16px;
+            letter-spacing: -0.01em;
+          }
+        
+          .benefits-section p.benefits-subtitle {
+            text-align: center;
+            color: var(--text-gray);
+            font-size: 16px;
+            line-height: 1.5;
+            max-width: 440px;
+            margin: 0 auto 32px;
+          }
+        
+          .benefits-section .divider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            margin-bottom: 32px;
+          }
+          .benefits-section .divider span {
+            height: 1px;
+            width: 90px;
+            background: #d9dbe0;
+          }
+          .benefits-section .divider svg { width: 18px; height: 18px; color: var(--text-dark); }
+        
+          .benefits-section .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+          }
+        
+          .benefits-section .card-top {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+          }
+        
+          .benefits-section .icon-box {
+            flex-shrink: 0;
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .benefits-section .icon-box svg { width: 26px; height: 26px; }
+        
+          .benefits-section .icon-box.orange { background: var(--ben-orange); }
+          .benefits-section .icon-box.blue { background: var(--ben-blue); }
+          .benefits-section .icon-box.green { background: var(--ben-green); }
+        
+          .benefits-section .card-body { flex: 1; text-align: left; }
+        
+          .benefits-section .card-body h3 {
+            margin: 0 0 6px;
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-dark);
+          }
+        
+          .benefits-section .card-body p {
+            margin: 0;
+            font-size: 14.5px;
+            line-height: 1.5;
+            color: var(--text-gray);
+          }
+        
+          .benefits-section .chevron-btn {
+            flex-shrink: 0;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 1px solid #e2e4e9;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #0b0d12;
+            margin-left: auto;
+          }
+          .benefits-section .chevron-btn svg { width: 16px; height: 16px; }
+        
+          .benefits-section .tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            padding-left: 72px;
+          }
+        
+          .benefits-section .tag {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--tag-bg);
+            color: #33384a;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 8px 14px;
+            border-radius: 999px;
+          }
+          .benefits-section .tag svg { width: 14px; height: 14px; }
+        
+          /* dark card variant */
+          .benefits-section .card.dark {
+            background: var(--dark-card);
+            border: 1px solid var(--dark-border);
+            box-shadow: 0 0 0 1px rgba(34, 224, 122, 0.08), 0 8px 24px rgba(0,0,0,0.35);
+          }
+          .benefits-section .card.dark .card-body h3 { color: #ffffff; }
+          .benefits-section .card.dark .card-body p { color: #9aa39c; }
+          .benefits-section .card.dark .icon-box {
+            background: rgba(34, 224, 122, 0.08);
+            border: 1px solid rgba(34, 224, 122, 0.35);
+          }
+          .benefits-section .card.dark .icon-box svg { color: var(--neon-green); }
+          .benefits-section .card.dark .chevron-btn {
+            background: transparent;
+            border: 1px solid rgba(34, 224, 122, 0.35);
+            color: var(--neon-green);
+          }
+        
+          @media (max-width: 480px) {
+            .benefits-section h2.benefits-title { font-size: 28px; }
+            .benefits-section .tags { padding-left: 0; }
+          }
+        </style>
+        <section class="benefits-section">
+            <div class="benefits-content reveal fade-up">
+                <div class="eyebrow">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg>
+                    CONTEÚDO PRÁTICO
+                </div>
+
+                <h2 class="benefits-title">O que <strong>você vai aprender</strong></h2>
+
+                <p class="benefits-subtitle">
+                    Tudo o que você precisa para fazer entregas mais rápidas, organizadas e lucrativas, mesmo começando do zero.
+                </p>
+
+                <div class="divider">
+                    <span></span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg>
+                    <span></span>
+                </div>
+
+                <!-- Card 1 -->
+                <div class="card reveal fade-up">
+                    <div class="card-top">
+                    <div class="icon-box orange">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <div class="card-body">
+                        <h3>Rotas Inteligentes</h3>
+                        <p>O segredo para entregar mais pacotes em menos tempo, economizando combustível e maximizando seu lucro diário.</p>
+                    </div>
+                    <div class="chevron-btn" aria-label="Ver mais">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                    </div>
+                    </div>
+                    <div class="tags">
+                    <span class="tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>Mais agilidade</span>
+                    <span class="tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 17 6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg>Mais lucro</span>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card reveal fade-up">
+                    <div class="card-top">
+                    <div class="icon-box blue">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8l9 5 9-5Z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>
+                    </div>
+                    <div class="card-body">
+                        <h3>Separação correta de pacotes</h3>
+                        <p>Aprenda o método exato para organizar suas entregas e ganhar tempo todos os dias.</p>
+                    </div>
+                    <div class="chevron-btn" aria-label="Ver mais">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                    </div>
+                    </div>
+                    <div class="tags">
+                    <span class="tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Menos erros</span>
+                    <span class="tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5l-8-3Z"/></svg>Mais segurança</span>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card reveal fade-up">
+                    <div class="card-top">
+                    <div class="icon-box green">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 20 3 17V4l6 3m0 13 6-3m-6 3V7m6 10 6 3V7l-6-3m0 13V4m0 3-6-3"/></svg>
+                    </div>
+                    <div class="card-body">
+                        <h3>Waze &amp; Google Maps Pro</h3>
+                        <p>Use as ferramentas certas como um profissional para otimizar suas rotas e evitar perder tempo.</p>
+                    </div>
+                    <div class="chevron-btn" aria-label="Ver mais">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                    </div>
+                    </div>
+                    <div class="tags">
+                    <span class="tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.4-7-11a7 7 0 0 1 14 0c0 5.6-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>Rotas otimizadas</span>
+                    <span class="tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg>Entregas mais rápidas</span>
+                    </div>
+                </div>
+
+                <!-- Card 4 - dark -->
+                <div class="card dark reveal fade-up">
+                    <div class="card-top">
+                    <div class="icon-box">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0V4Z"/><path d="M7 5H4v2a3 3 0 0 0 3 3M17 5h3v2a3 3 0 0 1-3 3"/></svg>
+                    </div>
+                    <div class="card-body">
+                        <h3>Método testado na prática</h3>
+                        <p>As mesmas estratégias que nos fizeram aumentar o faturamento em pouco tempo.</p>
+                    </div>
+                    <div class="chevron-btn" aria-label="Ver mais">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Transition to Companies -->
+            <div class="diagonal-divider ice-to-darkblue"></div>
+        </section>
+
+        <section class="companies-section bg-dark-blue section-padding">
+            <div class="comp-bg-grid"></div>
+            <div class="comp-bg-map parallax-layer" data-speed="0.04"></div>
+            <div class="comp-bg-glow"></div>
+            
+            <div class="container text-center relative z-10 reveal fade-up">
+                <h2 class="text-white">Onde você pode aplicar este método</h2>
+                
+                <div class="companies-pyramid" style="display: flex; flex-direction: column; align-items: center; gap: 30px; margin-top: 40px; margin-bottom: 20px;">
+                    <!-- Top -->
+                    <div>
+                        <img src="logo_amazon_1.png" alt="Amazon" style="max-height: 60px; object-fit: contain; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.6));">
+                    </div>
+                    <!-- Bottom -->
+                    <div style="display: flex; gap: 40px; justify-content: center; flex-wrap: wrap;">
+                        <img src="logo_mercadolivre_1.png" alt="Mercado Livre" style="max-height: 60px; object-fit: contain; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.6));">
+                        <img src="logo_shopee_1.png" alt="Shopee" style="max-height: 60px; object-fit: contain; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.6));">
+                    </div>
+                </div>
+                <p style="margin-top: 24px; font-size: 14px; color: rgba(255, 255, 255, 0.7); max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.6;">
+                    *Obs: Demais centrais de logística têm diversas formas de ingresso, o que destacaremos diretamente no nosso grupo VIP.
+                </p>
+            </div>
+        </section>
+
+        <!-- OFERTA & MOCKUPS -->
+        <section id="oferta" class="offer-section section-padding">
+            <div class="offer-energy-bg"></div>
+            <div class="container relative z-10">
+                <div class="text-center reveal fade-up" style="margin-bottom: 40px;">
+                    <h2 class="epic-text-3d" style="font-size: 2.5rem; color: #fff;">Trabalhando juntos, prosperando juntos.</h2>
+                </div>
+                <div class="offer-layout reveal fade-up">
+                    
+                    <div class="offer-mockups hover-3d" style="display: flex; justify-content: center; align-items: center;">
+                        <img src="capa_do_ebook_1.png" alt="Capa do Ebook" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+                    </div>
+
+                    <div class="offer-content glass-panel" style="padding: 30px;">
+                        <div class="offer-badge pulse-glow" style="font-size: 0.8rem; padding: 4px 12px; margin-bottom: 12px;">Acesso Imediato</div>
+                        <h2 style="font-size: 2rem; margin-bottom: 8px;">Entregador de Elite</h2>
+                        <p class="subtitle text-dark" style="font-size: 0.95rem; margin-bottom: 20px;">Sua rota direta para a independência financeira e geográfica.</p>
+                        
+                        <ul class="offer-checklist text-dark" style="font-size: 0.95rem; gap: 10px; display: flex; flex-direction: column; margin-bottom: 24px;">
+                            <li style="display: flex; align-items: center; margin-bottom: 0;"><svg viewBox="0 0 24 24" fill="none" stroke="#FF4D00" stroke-width="3" style="width: 18px; height: 18px; margin-right: 10px; flex-shrink: 0;"><polyline points="20 6 9 17 4 12"></polyline></svg> Acesso Vitalício</li>
+                            <li style="display: flex; align-items: center; margin-bottom: 0;"><svg viewBox="0 0 24 24" fill="none" stroke="#FF4D00" stroke-width="3" style="width: 18px; height: 18px; margin-right: 10px; flex-shrink: 0;"><polyline points="20 6 9 17 4 12"></polyline></svg> Atualizações Garantidas</li>
+                            <li style="display: flex; align-items: center; margin-bottom: 0;"><svg viewBox="0 0 24 24" fill="none" stroke="#FF4D00" stroke-width="3" style="width: 18px; height: 18px; margin-right: 10px; flex-shrink: 0;"><polyline points="20 6 9 17 4 12"></polyline></svg> Suporte via WhatsApp</li>
+                            <li style="display: flex; align-items: center; margin-bottom: 0;"><svg viewBox="0 0 24 24" fill="none" stroke="#FF4D00" stroke-width="3" style="width: 18px; height: 18px; margin-right: 10px; flex-shrink: 0;"><polyline points="20 6 9 17 4 12"></polyline></svg> Método validado no mercado</li>
+                            <li style="display: flex; align-items: center; margin-bottom: 0;"><svg viewBox="0 0 24 24" fill="none" stroke="#FF4D00" stroke-width="3" style="width: 18px; height: 18px; margin-right: 10px; flex-shrink: 0;"><polyline points="20 6 9 17 4 12"></polyline></svg> Rotinas solo ou em casal</li>
+                            <li style="display: flex; align-items: center; margin-bottom: 0;"><svg viewBox="0 0 24 24" fill="none" stroke="#FF4D00" stroke-width="3" style="width: 18px; height: 18px; margin-right: 10px; flex-shrink: 0;"><polyline points="20 6 9 17 4 12"></polyline></svg> Escolha do veículo ideal</li>
+                            <li style="display: flex; align-items: center; margin-bottom: 0;"><svg viewBox="0 0 24 24" fill="none" stroke="#FF4D00" stroke-width="3" style="width: 18px; height: 18px; margin-right: 10px; flex-shrink: 0;"><polyline points="20 6 9 17 4 12"></polyline></svg> Leitura de mapas e rotas</li>
+                            <li style="display: flex; align-items: center; margin-bottom: 0;"><svg viewBox="0 0 24 24" fill="none" stroke="#FF4D00" stroke-width="3" style="width: 18px; height: 18px; margin-right: 10px; flex-shrink: 0;"><polyline points="20 6 9 17 4 12"></polyline></svg> Organização de entregas</li>
+                            <li style="display: flex; align-items: center; margin-bottom: 0;"><svg viewBox="0 0 24 24" fill="none" stroke="#FF4D00" stroke-width="3" style="width: 18px; height: 18px; margin-right: 10px; flex-shrink: 0;"><polyline points="20 6 9 17 4 12"></polyline></svg> Aprenda antes de investir</li>
+                        </ul>
+
+                        <div class="price-block box-shadow-premium" style="padding: 16px; margin-bottom: 24px; border-radius: 12px;">
+                            <span class="price-from" style="font-size: 0.85rem;">De R$ 97,00 por apenas</span>
+                            <div class="price-current" style="font-size: 2.2rem;">R$ 47,90</div>
+                        </div>
+
+                        <a href="#" class="cta-button primary-cta pulse-glow block-center" style="padding: 16px 24px; font-size: 1rem; max-width: 100%;">
+                            QUERO MEU ACESSO AGORA
+                        </a>
+
+                        <div class="trust-seals text-dark" style="margin-top: 20px; font-size: 0.8rem;">
+                            <div class="seal" style="display: flex; align-items: center; gap: 6px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg> Garantia de 7 Dias</div>
+                            <div class="seal" style="display: flex; align-items: center; gap: 6px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg> Pagamento Seguro</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Transition Divider to FAQ -->
+            <div class="diagonal-divider offer-to-ice"></div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq-section bg-ice-white section-padding">
+            <div class="container">
+                <h2 class="text-center reveal fade-up">Perguntas Frequentes</h2>
+                
+                <div class="faq-accordion reveal fade-up">
+                    <div class="faq-item">
+                        <button class="faq-btn">Preciso ter carro? <span class="icon">+</span></button>
+                        <div class="faq-content"><p>Não necessariamente. Nosso treinamento aborda estratégias tanto para carro, moto ou van, além de opções de aluguel focados em custo-benefício.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn">Funciona para moto? <span class="icon">+</span></button>
+                        <div class="faq-content"><p>Sim! Várias plataformas parceiras contratam motociclistas para entregas de pequenos e médios volumes.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn">Preciso abrir MEI? <span class="icon">+</span></button>
+                        <div class="faq-content"><p>Mostramos exatamente quando o MEI é exigido e o passo a passo simplificado de como abrir o seu.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn">Posso trabalhar aos finais de semana? <span class="icon">+</span></button>
+                        <div class="faq-content"><p>Sim, você faz seus próprios horários. Excelente para renda extra.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn">Posso levar meu filho? <span class="icon">+</span></button>
+                        <div class="faq-content"><p>Se você atuar com veículo próprio (carro), muitas pessoas conseguem conciliar as entregas com o cuidado familiar.</p></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Transition Divider to Final -->
+            <div class="diagonal-divider ice-to-orange"></div>
+        </section>
+
+        <!-- CTA FINAL -->
+        <section class="final-cta cinematic-bg section-padding text-center">
+            <div class="hero-gradient-overlay"></div>
+            <div class="hero-particles" id="final-particles"></div>
+            
+            <div class="container relative z-10 reveal fade-up">
+                <h2 class="text-white massive-heading">COMO FATURAR ATÉ R$15.000 POR MÊS</h2>
+                <p class="subtitle text-white">Não deixe para depois. Comece hoje a trilhar seu caminho de liberdade financeira.</p>
+                
+                <div class="final-photo-container">
+                    <div class="epic-glow small-glow"></div>
+                    <!-- Mini foto casal -->
+                </div>
+
+                <a href="#oferta" class="cta-button primary-cta pulse-glow smooth-scroll mt-4">
+                    QUERO COMEÇAR AGORA
+                </a>
+            </div>
+        </section>
+
+    </div><!-- FIM DO DELAYED CONTENT -->
+
+    <script src="script.js"></script>
+</body>
+</html>
